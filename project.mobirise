@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 4,
+    "uniqCompNum": 6,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/scudrnr-logo-dark-background-high-res-128x32.png",
     "noImageResize": "",
@@ -53,13 +53,13 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#b8312f"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#b8312f"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#b8312f"
             },
             ".link": {
               "font-size": "0.8rem"
@@ -71,16 +71,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1f5087"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#2662a4!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2969b0"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#b8312f",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -90,16 +90,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f97352!important"
+              "color": "#b8312f!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-3",
           "_params": {
-            "bgColor": "#2969b0",
+            "bgColor": "#ffffff",
             "fontSize": "0.8",
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#b8312f",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
@@ -131,10 +131,13 @@
           "_inherit": "header2",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#b8312f"
+              "color": "#e25041"
             },
             ".mbr-section-text": {
-              "color": "#ffffff"
+              "color": "#f7da64"
+            },
+            ".mbr-section-text B": {
+              "color": "#f3c649"
             }
           },
           "_tags": [
@@ -146,7 +149,7 @@
             "imageSize": "70",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/screen-shot-2017-03-14-at-3-2000x2003.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/20170314-1-2000x1125.jpg",
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
@@ -185,8 +188,43 @@
             }
           },
           "title": "scudRNR",
-          "text": "Head to my Channel,<br>comment, like and subscribe!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"https://www.youtube.com/channel/UCcKUGdK3VubFoMKRSC_NakQ?sub_confirmation=1\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MORE</a>"
+          "text": "<b>CHECK OUT MY INSTAGRAM!</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"https://www.instagram.com/scudrnr/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MORE</a> "
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-5",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#f2f2f2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Air Traffic Controller &amp; FPV RACER!",
+          "text": "<p>Alex has been in the RC hobby for over 10 years. He got his start in RC helicopters and has been racing FPV for a year. Ales also has a background in aviation and air traffic control.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE ALL TEMPLATES</a>"
         },
         {
           "_tags": [

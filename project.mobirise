@@ -24,7 +24,7 @@
     "versionFirst": "3.12.1",
     "uniqCompNum": 7,
     "versionPublish": "3.12.1",
-    "favicon": "@PROJECT_PATH@/assets/images/scudrnr-logo-dark-background-high-res-128x32.png",
+    "favicon": "@PROJECT_PATH@/assets/images/favivon-scudrnr-128x91.png",
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -34,7 +34,7 @@
       "settings": {
         "main": true,
         "title": "ScudRNR",
-        "meta_descr": "- - ScudRNR, FPV Pilot, FPV Racing - -\nPowered & created by fpvlandingpages.com",
+        "meta_descr": "- - ScudRNR AKA Alex Moreno, ATC, FAA 107 & FPV RACER - -\n\nPowered & created by fpvlandingpages.com",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""

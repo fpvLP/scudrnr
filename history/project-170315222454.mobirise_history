@@ -7,11 +7,11 @@
       "title": "Mobirise 3",
       "styling": {
         "primaryColor": "#b8312f",
-        "secondaryColor": "#2b0680",
-        "successColor": "#ffffff",
-        "infoColor": "#553982",
-        "warningColor": "#c1c1c1",
-        "dangerColor": "#fac51c",
+        "secondaryColor": "#ffffff",
+        "successColor": "#b8312f",
+        "infoColor": "#fac51c",
+        "warningColor": "#2969b0",
+        "dangerColor": "#000000",
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 7,
+    "uniqCompNum": 6,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/scudrnr-logo-dark-background-high-res-128x32.png",
     "noImageResize": "",
@@ -131,13 +131,13 @@
           "_inherit": "header2",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#ff0502"
+              "color": "#e25041"
             },
             ".mbr-section-text": {
               "color": "#f7da64"
             },
             ".mbr-section-text B": {
-              "color": "#ffffff"
+              "color": "#f3c649"
             }
           },
           "_tags": [
@@ -222,8 +222,8 @@
             "showText": true,
             "showButton": false
           },
-          "title": "ATC, FAA 107 &amp; FPV RACER!",
-          "text": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Alex has been in the RC hobby for over 10 years. He got his start in RC helicopters and has been racing drones for almost two years. Alex also has a background in aviation and air traffic control.</span><br></p>",
+          "title": "Air Traffic Controller &amp; FPV RACER!",
+          "text": "<p>Alex has been in the RC hobby for over 10 years. He got his start in RC helicopters and has been racing FPV for a year. Ales also has a background in aviation and air traffic control.</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE ALL TEMPLATES</a>"
         },
         {

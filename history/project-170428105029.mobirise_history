@@ -10,7 +10,7 @@
         "secondaryColor": "#2b0680",
         "successColor": "#ffffff",
         "infoColor": "#553982",
-        "warningColor": "#ffffff",
+        "warningColor": "#c1c1c1",
         "dangerColor": "#fac51c",
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 10,
+    "uniqCompNum": 7,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favivon-scudrnr-128x91.png",
     "noImageResize": "",
@@ -147,27 +147,6 @@
             "Theme"
           ],
           "_name": "header6",
-          "_anchor": "header6-1",
-          "_params": {
-            "imageSize": 50,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/20170314-1-2000x1125.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.3",
-            "overlayColor": "#000000",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true
-          },
           "media": {
             "image": {
               "width": 1400,
@@ -190,8 +169,26 @@
               "size": 250
             }
           },
-          "title": "scudRNR",
+          "_anchor": "header6-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/20170314-1-2000x1125.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000000",
+            "showText": true,
+            "showTitle": true,
+            "showButtons": true
+          },
           "text": "<b>CHECK OUT MY INSTAGRAM!</b>",
+          "title": "scudRNR",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"https://www.instagram.com/scudrnr/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MORE</a> "
         },
         {
@@ -211,7 +208,7 @@
             "paddingBottom": "1",
             "parallax": true,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgImage": "../../../web/app/themes/mobirise3/components/_images/desert.jpg",
             "bgColor": "#f2f2f2",
             "bgColorRadio": true,
             "bgVideo": {
@@ -240,49 +237,17 @@
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
             "bgColor": "#f97352",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "logo": true,
+            "showTitles": true,
+            "showButtons": true
           },
-          "text": "<b>Want you own landing page? Click <a href=\"http://fpvlandingpages.com\" target=\"_blank\">HERE</a>!<br>Copyright (c) 2017 FPV <a href=\"http://fpvlandingpages.com\">Landing Pages</a>.</b>",
-          "_styles": {
-            "B": {
-              "color": "#ffffff"
-            }
-          }
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box1",
-          "_anchor": "msg-box1-9",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#cccccc",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": true,
-            "showText": false,
-            "showTitle": true
-          },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"mailto:scudrnr.fpv@gmail.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Click Here</a>",
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "Contact me..."
+          "text": "Copyright (c) 2017 FPV Landing Pages."
         }
       ]
     }

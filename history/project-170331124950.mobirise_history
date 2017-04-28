@@ -10,7 +10,7 @@
         "secondaryColor": "#2b0680",
         "successColor": "#ffffff",
         "infoColor": "#553982",
-        "warningColor": "#ffffff",
+        "warningColor": "#c1c1c1",
         "dangerColor": "#fac51c",
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 10,
+    "uniqCompNum": 7,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favivon-scudrnr-128x91.png",
     "noImageResize": "",
@@ -149,7 +149,7 @@
           "_name": "header6",
           "_anchor": "header6-1",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "70",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/20170314-1-2000x1125.jpg",
@@ -247,42 +247,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "<b>Want you own landing page? Click <a href=\"http://fpvlandingpages.com\" target=\"_blank\">HERE</a>!<br>Copyright (c) 2017 FPV <a href=\"http://fpvlandingpages.com\">Landing Pages</a>.</b>",
-          "_styles": {
-            "B": {
-              "color": "#ffffff"
-            }
-          }
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box1",
-          "_anchor": "msg-box1-9",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#cccccc",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": true,
-            "showText": false,
-            "showTitle": true
-          },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"mailto:scudrnr.fpv@gmail.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Click Here</a>",
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "Contact me..."
+          "text": "Copyright (c) 2017 FPV Landing Pages."
         }
       ]
     }

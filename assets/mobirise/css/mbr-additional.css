@@ -730,44 +730,6 @@ h6,
 #ext_menu-3 .dropdown-item[aria-expanded="true"] {
   color: #b8312f!important;
 }
-#custom-html-c .logo {
-  position: fixed;
-  bottom: 3vh;
-  right: 3vw;
-  z-index: 2;
-}
-#custom-html-c .logo img {
-  width: 45px;
-  -webkit-transform: rotate(0);
-  transform: rotate(0);
-  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-}
-#custom-html-c .logo img:hover {
-  -webkit-transform: rotate(180deg) scale(1.1);
-  transform: rotate(180deg) scale(1.1);
-}
-#custom-html-c #instafeed {
-  width: 100%;
-  padding-top: 50px;
-}
-#custom-html-c #instafeed a {
-  display: block;
-  float: left;
-  position: relative;
-  width: 33.33%;
-  padding: 3px;
-}
-@media screen and (min-width: 580px) {
-  #custom-html-c #instafeed a {
-    width: 25%;
-  }
-}
-#custom-html-c #instafeed a img {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
 #msg-box3-5 .mbr-section-title,
 #msg-box3-5 p {
   color: #000;

@@ -27,7 +27,10 @@
     "favicon": "@PROJECT_PATH@/assets/images/favivon-scudrnr-128x91.png",
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishFtpPath": "public_html",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -36,7 +39,7 @@
         "title": "ScudRNR",
         "meta_descr": "- - ScudRNR AKA Alex Moreno, ATC, FAA 107 & FPV RACER - -\n\nPowered & created by fpvlandingpages.com",
         "header_custom": "<link rel=\"stylesheet\" type=\"text/css\" href=\"http://www.fpvlandingpages.com/assets/css/libs/fpvLandingPages.css\">",
-        "footer_custom": "",
+        "footer_custom": "\t<a href=\"http://fpvlandingpages.com\" class=\"logo\" target=\"_blank\">\n\t <img class=\"logo\" src=\"http://www.fpvlandingpages.com/assets/images/logo-white.svg\" alt=\"\"> \n\t</a>",
         "html_before": ""
       },
       "components": [
@@ -111,7 +114,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/scudrnr-logo-light-background-high-res-505x128.png",
+              "src": "@PROJECT_PATH@/assets/images/scudrnr%20logo%20light%20background%20high%20res-505x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "http://fpvlandingpages.com",
@@ -130,8 +133,8 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "//http://codepen.io/hzg/pen/rVvyPg\n\n<section class=\"fix1 mbr-section mbr-section-hero mbr-section-full header8 mbr-parallax-background\" style=\"background-image: url(@PROJECT_PATH@/assets/images/20170314-1-2000x1125.jpg);\">\n\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(0, 0, 0);\">\n    </div>\n        <div class=\"mbr-table-cell\">\n            <div class=\"container\">\n\n                    <div id=\"title\">\n                        <div class=\"mbr-figure image-size\" style=\"width: 80%;\">\n                        <div id=\"instafeed\">\n</div>\n\n{JS_CODE_0}\n{JS_CODE_1}\n                        \n                        \n                        \n                        </div>\n                        <div class=\"mbr-table-cell mbr-left-padding-md-up col-md-6 text-xs-center text-md-left\">\n\n                            \n\n                            <div class=\"mbr-section-subtitle sub-2\">\n                                \n                            </div>\n                        </div>\n                        <div class=\"text-xs-center\">\n                            <a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"mailto:scudrnr.fpv@gmail.com\" code-editable-id=\"45\">Contact me!</a> \n\n                        </div>\n                    </div>\n            </div> \n        </div> \n                \n</section>\n",
-          "_customCSS": ".fix1{\n    clear:left;\n}",
+          "_customHTML": "<section class=\" mbr-section mbr-section-hero mbr-section-full header8 mbr-parallax-background\" style=\"background-image: url(@PROJECT_PATH@/assets/images/20170314-1-2000x1125.jpg);\">\n\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(0, 0, 0);\">\n    </div>\n        <div class=\"mbr-table-cell\">\n            <div class=\"container\">\n\n                    <div id=\"title\">\n                        <div class=\"mbr-figure image-size\" style=\"width: 80%;\">\n                        <div id=\"instafeed\">\n</div>\n\n{JS_CODE_0}\n{JS_CODE_1}\n                        \n                        \n                        \n                        </div>\n                        <div class=\"mbr-table-cell mbr-left-padding-md-up col-md-6 text-xs-center text-md-left\">\n\n                            \n\n                            <div class=\"mbr-section-subtitle sub-2\">\n                                \n                            </div>\n                        </div>\n                        <div class=\"text-xs-center\">\n                            <a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"mailto:scudrnr.fpv@gmail.com\" code-editable-id=\"99\">Contact me!</a> \n\n                        </div>\n                    </div>\n            </div> \n        </div> \n                \n</section>\n\n\n",
+          "_customCSS": ".logo {\n  position: fixed;\n  bottom: 3vh;\n  right: 3vw;\n  z-index: 2;\n}\n.logo img {\n  width: 45px;\n  -webkit-transform: rotate(0);\n          transform: rotate(0);\n  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);\n  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);\n}\n.logo img:hover {\n  -webkit-transform: rotate(180deg) scale(1.1);\n          transform: rotate(180deg) scale(1.1);\n}\n\n\n#instafeed {\n  width: 100%;\n    padding-top:50px;\n}\n#instafeed a {\n  display: block;\n  float: left;\n  position: relative;\n  width: 33.33%;\n    padding:3px;\n}\n@media screen and (min-width: 580px) {\n  #instafeed a {\n    width: 25%;\n  }\n}\n#instafeed a img {\n  display: block;\n  width: 100%;\n  height: 100%;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"

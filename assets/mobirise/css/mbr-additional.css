@@ -730,6 +730,9 @@ h6,
 #ext_menu-3 .dropdown-item[aria-expanded="true"] {
   color: #b8312f!important;
 }
+#custom-html-c .fix1 {
+  clear: left;
+}
 #msg-box3-5 .mbr-section-title,
 #msg-box3-5 p {
   color: #000;

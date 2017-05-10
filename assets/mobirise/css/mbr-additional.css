@@ -730,25 +730,6 @@ h6,
 #ext_menu-3 .dropdown-item[aria-expanded="true"] {
   color: #b8312f!important;
 }
-#custom-html-c #instafeed {
-  width: 100%;
-}
-#custom-html-c #instafeed a {
-  display: block;
-  float: left;
-  position: relative;
-  width: 50%;
-}
-@media screen and (min-width: 580px) {
-  #custom-html-c #instafeed a {
-    width: 25%;
-  }
-}
-#custom-html-c #instafeed a img {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
 #msg-box3-5 .mbr-section-title,
 #msg-box3-5 p {
   color: #000;

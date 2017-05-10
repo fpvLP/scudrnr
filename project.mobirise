@@ -35,7 +35,7 @@
         "main": true,
         "title": "ScudRNR",
         "meta_descr": "- - ScudRNR AKA Alex Moreno, ATC, FAA 107 & FPV RACER - -\n\nPowered & created by fpvlandingpages.com",
-        "header_custom": "",
+        "header_custom": "<link rel=\"stylesheet\" type=\"text/css\" href=\"http://www.fpvlandingpages.com/assets/css/libs/instafeed.css\">",
         "footer_custom": "",
         "html_before": ""
       },
@@ -130,8 +130,8 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "//http://codepen.io/hzg/pen/rVvyPg\n\n<section class=\"mbr-section mbr-section-hero mbr-section-full header8 mbr-parallax-background\" style=\"background-image: url(@PROJECT_PATH@/assets/images/20170314-1-2000x1125.jpg);\">\n\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(0, 0, 0);\">\n    </div>\n        <div class=\"mbr-table-cell\">\n            <div class=\"container\">\n\n                    <div id=\"title\">\n                        <div class=\"mbr-figure image-size\" style=\"width: 80%;\">\n                        <div id=\"instafeed\">\n</div>\n\n{JS_CODE_0}\n{JS_CODE_1}\n                        \n                        \n                        \n                        </div>\n                        <div class=\"mbr-table-cell mbr-left-padding-md-up col-md-6 text-xs-center text-md-left\">\n\n                            \n\n                            <div class=\"mbr-section-subtitle sub-2\">\n                                \n                            </div>\n                        </div>\n                        <div class=\"text-xs-center\">\n                            <a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"https://www.youtube.com/channel/UCcKUGdK3VubFoMKRSC_NakQ\" target=\"blank\" code-editable-id=\"61\">YouTube\u001b</a> \n\n                        </div>\n                    </div>\n            </div> \n        </div> \n                \n</section>",
-          "_customCSS": "#instafeed {\n  width: 100%;\n}\n#instafeed a {\n  display: block;\n  float: left;\n  position: relative;\n  width: 50%;\n}\n@media screen and (min-width: 580px) {\n  #instafeed a {\n    width: 25%;\n  }\n}\n#instafeed a img {\n  display: block;\n  width: 100%;\n  height: 100%;\n}\n",
+          "_customHTML": "//http://codepen.io/hzg/pen/rVvyPg\n\n<section class=\"mbr-section mbr-section-hero mbr-section-full header8 mbr-parallax-background\" style=\"background-image: url(@PROJECT_PATH@/assets/images/20170314-1-2000x1125.jpg);\">\n\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(0, 0, 0);\">\n    </div>\n        <div class=\"mbr-table-cell\">\n            <div class=\"container\">\n\n                    <div id=\"title\">\n                        <div class=\"mbr-figure image-size\" style=\"width: 80%;\">\n                        <div id=\"instafeed\">\n</div>\n\n{JS_CODE_0}\n{JS_CODE_1}\n                        \n                        \n                        \n                        </div>\n                        <div class=\"mbr-table-cell mbr-left-padding-md-up col-md-6 text-xs-center text-md-left\">\n\n                            \n\n                            <div class=\"mbr-section-subtitle sub-2\">\n                                \n                            </div>\n                        </div>\n                        <div class=\"text-xs-center\">\n                            <a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"https://www.youtube.com/channel/UCcKUGdK3VubFoMKRSC_NakQ\" target=\"blank\" code-editable-id=\"73\">YouTube\u001b</a> \n\n                        </div>\n                    </div>\n            </div> \n        </div> \n                \n</section>\n{JS_CODE_2}",
+          "_customCSS": "",
           "alias": "code-editor",
           "_tags": [
             "Extension"
@@ -141,7 +141,8 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script src=\"http://www.fpvlandingpages.com/assets/js/libs/instafeed.min.js\"></script>",
-            "<script type=\"text/javascript\">  \n  var userFeed = new Instafeed({\n    get: 'user',\n    userId: '3696661727',\n    clientId: '\tc5df01f5bf89427f9bbcc8ee849e9a21',\n    accessToken: '3696661727.1677ed0.95bfb6027efb481896579c0039e692c7',\n    resolution: 'standard_resolution',\n    template: '<a href=\"{{link}}\" target=\"_blank\" id=\"{{id}}\"><img src=\"{{image}}\" /></a>',\n    sortBy: 'most-recent',\n    limit: 12,\n    links: true\n  });\n  userFeed.run();\n</script>"
+            "<script type=\"text/javascript\">  \n  var userFeed = new Instafeed({\n    get: 'user',\n    userId: '3696661727',\n    clientId: '\tc5df01f5bf89427f9bbcc8ee849e9a21',\n    accessToken: '3696661727.1677ed0.95bfb6027efb481896579c0039e692c7',\n    resolution: 'standard_resolution',\n    template: '<a href=\"{{link}}\" target=\"_blank\" id=\"{{id}}\"><img src=\"{{image}}\" /></a>',\n    sortBy: 'most-recent',\n    limit: 12,\n    links: true\n  });\n  userFeed.run();\n</script>",
+            "<script src=\"http://www.fpvlandingpages.com/assets/js/libs/instafeed.min.js\"></script>"
           ]
         },
         {

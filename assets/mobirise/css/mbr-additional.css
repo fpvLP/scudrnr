@@ -730,20 +730,6 @@ h6,
 #ext_menu-3 .dropdown-item[aria-expanded="true"] {
   color: #b8312f!important;
 }
-#custom-html-c html {
-  box-sizing: border-box;
-}
-#custom-html-c *,
-#custom-html-c *::after,
-#custom-html-c *::before {
-  box-sizing: inherit;
-}
-#custom-html-c html,
-#custom-html-c body {
-  margin-top: 50px;
-  padding: 50px;
-  background: gainsboro;
-}
 #custom-html-c #instafeed {
   width: 100%;
 }

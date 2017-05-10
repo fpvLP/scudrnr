@@ -730,14 +730,38 @@ h6,
 #ext_menu-3 .dropdown-item[aria-expanded="true"] {
   color: #b8312f!important;
 }
-#header6-1 .mbr-section-title {
-  color: #ff0502;
+#custom-html-c html {
+  box-sizing: border-box;
 }
-#header6-1 .mbr-section-text {
-  color: #f7da64;
+#custom-html-c *,
+#custom-html-c *::after,
+#custom-html-c *::before {
+  box-sizing: inherit;
 }
-#header6-1 .mbr-section-text B {
-  color: #ffffff;
+#custom-html-c html,
+#custom-html-c body {
+  margin-top: 50px;
+  padding: 50px;
+  background: gainsboro;
+}
+#custom-html-c #instafeed {
+  width: 100%;
+}
+#custom-html-c #instafeed a {
+  display: block;
+  float: left;
+  position: relative;
+  width: 50%;
+}
+@media screen and (min-width: 580px) {
+  #custom-html-c #instafeed a {
+    width: 25%;
+  }
+}
+#custom-html-c #instafeed a img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 #msg-box3-5 .mbr-section-title,
 #msg-box3-5 p {

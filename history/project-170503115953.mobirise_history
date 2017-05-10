@@ -22,12 +22,15 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 14,
+    "uniqCompNum": 10,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favivon-scudrnr-128x91.png",
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishFtpPath": "public_html",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -114,7 +117,7 @@
               "src": "@PROJECT_PATH@/assets/images/scudrnr-logo-light-background-high-res-505x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "http://fpvlandingpages.com",
+              "link": "https://fpvlandingpages.com",
               "title": "",
               "linkInNewWindow": true
             },
@@ -128,21 +131,68 @@
           "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/scudrnr/\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.facebook.com/profile.php?id=662565648&amp;fref=nf\" target=\"_blank\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.youtube.com/channel/UCcKUGdK3VubFoMKRSC_NakQ\" target=\"_blank\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "//http://codepen.io/hzg/pen/rVvyPg\n\n<section class=\"mbr-section mbr-section-hero mbr-section-full header8 mbr-parallax-background\" style=\"background-image: url(@PROJECT_PATH@/assets/images/20170314-1-2000x1125.jpg);\">\n\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(0, 0, 0);\">\n    </div>\n        <div class=\"mbr-table-cell\">\n            <div class=\"container\">\n\n                    <div id=\"title\">\n                        <div class=\"mbr-figure image-size\" style=\"width: 80%;\">\n                        <div id=\"instafeed\">\n</div>\n\n{JS_CODE_0}\n{JS_CODE_1}\n                        \n                        \n                        \n                        </div>\n                        <div class=\"mbr-table-cell mbr-left-padding-md-up col-md-6 text-xs-center text-md-left\">\n\n                            \n\n                            <div class=\"mbr-section-subtitle sub-2\">\n                                \n                            </div>\n                        </div>\n                        <div class=\"text-xs-center\">\n                            <a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"https://www.youtube.com/channel/UCcKUGdK3VubFoMKRSC_NakQ\" target=\"blank\" code-editable-id=\"57\">YouTube\u001b</a> \n\n                        </div>\n                    </div>\n            </div> \n        </div> \n                \n</section>",
-          "_customCSS": "html {\n  box-sizing: border-box;\n}\n\n*, *::after, *::before {\n  box-sizing: inherit;\n}\n\nhtml,\nbody {\n  margin-top: 50px;\n  padding: 50px;\n  background: gainsboro;\n}\n\n#instafeed {\n  width: 100%;\n}\n#instafeed a {\n  display: block;\n  float: left;\n  position: relative;\n  width: 50%;\n}\n@media screen and (min-width: 580px) {\n  #instafeed a {\n    width: 25%;\n  }\n}\n#instafeed a img {\n  display: block;\n  width: 100%;\n  height: 100%;\n}\n",
-          "alias": "code-editor",
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ff0502"
+            },
+            ".mbr-section-text": {
+              "color": "#f7da64"
+            },
+            ".mbr-section-text B": {
+              "color": "#ffffff"
+            }
+          },
           "_tags": [
-            "Extension"
+            "Theme"
           ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-c",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script src=\"http://www.fpvlandingpages.com/assets/js/libs/instafeed.min.js\"></script>",
-            "<script type=\"text/javascript\">  \n  var userFeed = new Instafeed({\n    get: 'user',\n    userId: '3696661727',\n    clientId: '\tc5df01f5bf89427f9bbcc8ee849e9a21',\n    accessToken: '3696661727.1677ed0.95bfb6027efb481896579c0039e692c7',\n    resolution: 'standard_resolution',\n    template: '<a href=\"{{link}}\" target=\"_blank\" id=\"{{id}}\"><img src=\"{{image}}\" /></a>',\n    sortBy: 'most-recent',\n    limit: 12,\n    links: true\n  });\n  userFeed.run();\n</script>"
-          ]
+          "_name": "header6",
+          "_anchor": "header6-1",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/20170314-1-2000x1125.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/gallery/coworkers.jpg",
+              "link": "http://youtube.com/c/dexFPV",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/s5fYuxnVoGw",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "scudRNR",
+          "text": "<b>CHECK OUT MY INSTAGRAM!</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"https://www.instagram.com/scudrnr/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MORE</a> "
         },
         {
           "_inherit": "msg-box8",
@@ -184,11 +234,6 @@
             "Theme"
           ],
           "_name": "footer1",
-          "_styles": {
-            "B": {
-              "color": "#ffffff"
-            }
-          },
           "_anchor": "footer1-2",
           "_params": {
             "paddingTop": "1",
@@ -196,13 +241,18 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#b8312f",
+            "bgColor": "#f97352",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "<b>Want you own landing page? Click <a href=\"http://fpvlandingpages.com\" target=\"_blank\" class=\"text-danger\">HERE</a>!<br>Copyright (c) 2017 FPV <a href=\"http://fpvlandingpages.com\" class=\"text-danger\">Landing Pages</a>.</b>"
+          "text": "<b>Want you own landing page? Click <a href=\"http://fpvlandingpages.com\" target=\"_blank\">HERE</a>!<br>Copyright (c) 2017 FPV <a href=\"http://fpvlandingpages.com\">Landing Pages</a>.</b>",
+          "_styles": {
+            "B": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_tags": [
